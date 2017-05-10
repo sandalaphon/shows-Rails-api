@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
 
+gem 'rack-cors', :require => 'rack/cors'
+gem  "responders"
+gem 'devise'
+gem 'awesome_print'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
